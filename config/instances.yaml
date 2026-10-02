@@ -1,4 +1,11 @@
 ---
+litemaas:
+  models:
+    - minimax-m2
+  duration: 1d
+  enable_user_info_messages: true
+  enable_user_info_data: true
+
 containers: []
 virtualmachines:
   - name: "host1"
@@ -12,3 +19,4 @@ virtualmachines:
     networks:
       - default
       - secondary
+
